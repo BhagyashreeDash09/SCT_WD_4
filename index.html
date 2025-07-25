@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful To-Do App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My To-Do List</h1>
+            <p>Stay organized and productive!</p>
+        </div>
+
+        <div class="input-section">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <button id="addTaskBtn">
+                <i class="fas fa-plus"></i> Add Task
+            </button>
+        </div>
+
+        <div class="tasks-section">
+            <ul id="taskList">
+                </ul>
+            <p id="noTasksMessage">No tasks yet! Start by adding one.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
